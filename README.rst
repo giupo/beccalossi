@@ -20,8 +20,6 @@ then:
 
 .. code-block:: bash
 
-    $ cat | http POST example.com
-    <paste>
-    ^D
+    $ docker-compose up
 
 .. _repec_pubdb: https://gitlab.com/MichelJuillard/repec_pubdb
