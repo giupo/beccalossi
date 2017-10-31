@@ -23,3 +23,9 @@ then:
     $ docker-compose up
 
 .. _repec_pubdb: https://gitlab.com/MichelJuillard/repec_pubdb
+
+Config Addendum
+---------------
+
+The app uses `Flask-Security <https://pythonhosted.org/Flask-Security/configuration.html>_ for security configuration which
+requires a MTA on the host running the app for user registration. Let's see if we can integrate other Auth providers (WIP)
