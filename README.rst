@@ -2,31 +2,24 @@
 Docker container for `repec_pubdb`_
 ******
 
-.. image:: https://travis-ci.org/giupo/blocky.svg?branch=master
-    :target: https://travis-ci.org/giupo/blocky
-
 This is an attempt to container-ize the app built for REPEC
 
 Prerequisites
-----
+-------------
 
- Make sure you have installed the last version of Docker
- https://www.docker.com/get-docker
-
- and you have read some docker documentation (you'll only need
- `docker-compose` to work out of the box):
- https://docs.docker.com/
+Make sure you have installed the last version of `Docker <https://www.docker.com/get-docker>`_
+and you have read some `docker documentation <https://docs.docker.com>`_ (you'll only need 
+`docker-compose` to work out of the box)
 
 Build
-----
+-----
 
- Edit the file `app/local_config.py` (please supply a valid `REPEC_API_CODE`),
- provide also a valid `DOMAIN`.
+Edit the file `app/local_config <https://github.com/giupo/beccalossi/app/local_config.py>`_ (please supply a valid `REPEC_API_CODE`), provide also a valid `DOMAIN`.
 
- then:
+then:
 
- .. code-block:: bash
-     $ docker-compose up
+.. code-block:: bash
+    $ docker-compose up
 
 
 .. _repec_pubdb: https://gitlab.com/MichelJuillard/repec_pubdb
