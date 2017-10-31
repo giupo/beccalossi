@@ -18,7 +18,7 @@ Edit the file `app/local_config <https://github.com/giupo/beccalossi/blob/master
 
 then:
 
-.. code-block:: sh
+.. code-block:: python
     $ docker-compose up
 
 .. _repec_pubdb: https://gitlab.com/MichelJuillard/repec_pubdb
